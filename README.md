@@ -5,4 +5,4 @@ Run the server someplace public via the `pioneers-server-console` command. Downl
 
 On the client GUI, choose the option to "Join Private Game" and point to the IP or DNS Name where you are running the server.
 
-Remember to publish port 5556 when running docker `docker run -it --rm -p 5556:5556 pioneers-server`
+Remember to publish port 5556 when running docker `docker run -it --rm -p 5556:5556 pioneers-server -P 3`
